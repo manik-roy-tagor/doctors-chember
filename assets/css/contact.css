@@ -1,0 +1,21 @@
+.contactsection > form> label{
+    margin-left: 10px;
+    font-size: 18px;
+    display: block;
+}
+.contactsection > form > label > input {
+    margin-left: 10px;
+    padding: 8px;
+    min-width: 80%;
+    transition: 0.3s;
+    border: 2px solid #830000;
+    border-radius: 6px;
+}
+.contactsection{
+    width: 40%;
+    background-color: #ddd;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+}

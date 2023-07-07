@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    }
+    body{
+        font-family: montserrat;
+    }
+    nav{
+        background-color: #9a03e0;
+        height: 60px;
+        width: 100%;
+    }
+
+    .logo{
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 60px;
+        padding: 0px 30px;
+        font-weight: bolder;
+    }
+    nav > ul{         
+        display: flex;
+        float: right;
+        margin-right: 20px;
+    }
+    nav > ul > li {       
+        line-height: 60px;
+        margin: 0px 5px;
+    }
+    .navigation li a { 
+        color: #ffffff; 
+    }
+
+
+    /* Megha Menu */
+    li > .dropdown{
+        display: none;
+        position: absolute;        
+        margin: 0px 0px 0px -5%;
+    }
+    nav li:hover > .dropdown{
+        display: block;
+        background-color: #be0505;
+    }
+    nav li:hover > .dropdown li:hover{
+        background-color: #7a1414;
+    }
+
+
+
+
+    /* Banner Section */
+    .top-left{
+        position: absolute;
+        top: 190px;
+        left: 100px;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .callbutton{
+        padding: 10px 65px;
+    background-color: #d73232;
+    border: 7px solid #ffffff;
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: monospace;
+    border-radius: 15px;
+    box-shadow: 4px 6px #830000;
+    }
+
+
+
+    /* Service Section */
+    .service{
+        display: flex;
+    }
+    .card  {
+        width: 30%;
+        min-height: 350px;
+        text-align: center;
+        background-color: #fff3f3;
+        border-radius: 5px;
+        margin-left:3% ;
+        transition: 0.3s;
+    }
+    .card > img {
+        max-width: 250px;
+        min-height: 250px;
+        margin-top: 10px;
+        border-radius: 30px;
+    }
+    .card:hover {
+        box-shadow: 0 20px 16px 0 rgba(122, 2, 2, 0.2);
+      }
+
+
+
+      /* Footer */
+      footer{
+        text-align: center;
+        font-size: 18px;
+        padding: 20px 20px;
+      }
